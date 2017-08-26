@@ -410,6 +410,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 #home {
 	background: rgba(0,0,0, .5) url(../img/header_bg.jpg) no-repeat center fixed;
+	-webkit-background-size: cover;
 	background-size: cover;
 	position: relative;
 	text-align: center;
