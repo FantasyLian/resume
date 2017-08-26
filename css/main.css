@@ -76,10 +76,7 @@ li {
 }
 
 .loader {
-	background-color: #fff;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: 30px 30px;
+	background: #fff url(../img/loading.gif) no-repeat center;
 	bottom: 0;
 	left: 0;
 	position: fixed;
