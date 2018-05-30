@@ -189,7 +189,7 @@
 		<footer id="footer" class="row">
 			<div class="footer-content page">
 				<div class="col f1">
-					<p> &copy; &nbsp; 2017 LIAN JUN.&nbsp; All Rights Reserved. &nbsp;</p>
+					<p> &copy; &nbsp; <span id="year"></span> &nbsp; LIAN JUN.&nbsp; All Rights Reserved. &nbsp;</p>
 				</div>
 			</div>
 		</footer>
@@ -202,5 +202,10 @@
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<script src="js/skrollr.js"></script>
 	<script src="js/main.js"></script>
+	<script>
+	$().ready(function() {
+		$('#year').text(new Date().getFullYear());
+	});
+	</script>
 </body>
 </html>
