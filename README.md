@@ -55,8 +55,8 @@
 以下均为我熟练使用的技能
 
 - WEB开发：HTML5/CSS3/JavaScript(ES6)/Nodejs/Less/Sass
-- 前端框架：Bootstrap/VueJS/jQuery
-- 前端工具：Webpack/NPM/
+- 前端框架：VueJS/Bootstrap/jQuery
+- 前端工具：Webpack/npm/yarn
 - 数据库相关：MySQL/MangoDB
 - 版本管理工具：Svn/Git
 - 云和开放平台：阿里云服务器/微信小程序开发
