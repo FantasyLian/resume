@@ -35,7 +35,14 @@ module.exports = merge(webpackBaseConfig, {
         new HtmlWebpackPlugin({
             filename: '../index_prod.html',
             template: './index.ejs',
-            inject: false
+            inject: false,
+            minify: {
+                removeComments: true,
+                collapseWhitespace: true,
+                removeAttributeQuotes: true
+            },
+            chunks: ['manifest', 'vendor', 'app'],
+            chunksSortMode: 'dependency'
         })
     ]
 });

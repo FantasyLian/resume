@@ -1,12 +1,14 @@
 'use strict';
 
+const webpack = require('webpack');
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-// const webpack = require('webpack');
 
 const config = {
     entry: {
-        main: './main'
+        // main: './main'
+        main: path.resolve(__dirname, 'main.js'),
+        common: path.resolve(__dirname, './src/assets/js/common.js')
     },
     output: {
         path: path.join(__dirname, './dist'),
@@ -61,11 +63,14 @@ const config = {
             filename: '[name].css',
             allChunks: true
         }),
-        // new webpack.ProvidePlugin({
-        //     $: 'jquery',
-        //     jQuery: 'jquery',
-        //     'window.jQuery': 'jquery'
-        // })
+        new webpack.optimize.CommonsChunkPlugin({
+            name: 'common',
+            filename: 'common.js'
+        }),
+        new webpack.ProvidePlugin({
+            $: 'jquery',
+            jQuery: 'jquery',
+        })
     ]
 };
 
