@@ -12,7 +12,7 @@
         </div>
         <div class="work-examples page">
             <div class="col work-item" v-for="item in items" :key="item.id" data-1300="opacity:0;" data-1400="opacity:1;">
-                <img src="../assets/img/works/1.jpg" alt="">
+                <img src="../src/assets/img/works/1.jpg" alt="">
                 <div class="work-item-inside">
                     <div class="work-item-inside-content">
                         <h4>{{ item.title }}</h4>
