@@ -2,7 +2,7 @@
   "name": "my-resume",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --open --history-api-fallback --config webpack.config.js",
@@ -30,9 +30,9 @@
     "vue-loader": "^11.3.4",
     "vue-style-loader": "^2.0.5",
     "vue-template-compiler": "^2.2.6",
-    "webpack": "^2.3.2",
+    "webpack": "^3.6.0",
     "webpack-dev-server": "^2.4.2",
-    "webpack-merge": "^4.1.0"
+    "webpack-merge": "^4.2.2"
   },
   "dependencies": {
     "vue": "^2.2.6"
