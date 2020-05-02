@@ -11,6 +11,7 @@
     </div>
 </template>
 <script>
+import $ from 'jquery';
 import myHeader from './components/my-header.vue'
 import myHome from './components/my-home.vue'
 import myAbout from './components/my-about.vue'
@@ -30,6 +31,5 @@ export default {
         -moz-osx-font-smoothing: grayscale;
         text-align: center;
         color: #2c3e50;
-        margin-top: 60px;
     }
 </style>
