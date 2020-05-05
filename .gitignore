@@ -1,3 +1,5 @@
 myResume.pdf
 static
 node_modules
+dist
+index_prod.html
