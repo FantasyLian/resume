@@ -33,6 +33,12 @@ module.exports = merge(webpackBaseConfig, {
                 warnings: false
             }
         }),
+        // 引入jQuery
+        new webpack.ProvidePlugin({
+            $: 'jquery',
+            jQuery: 'jquery',
+            'window.jQuery': 'jquery'
+        }),
         // 提取模版，并保存入口 html 文件
         new HtmlWebpackPlugin({
             filename: '../index_prod.html',
