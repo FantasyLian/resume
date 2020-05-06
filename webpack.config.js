@@ -1,6 +1,7 @@
 'use strict';
 
 const path = require('path');
+const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 const config = {
@@ -59,6 +60,12 @@ const config = {
         new ExtractTextPlugin({
             filename: '[name].css',
             allChunks: true
+        }),
+        // 引入jQuery
+        new webpack.ProvidePlugin({
+            $: 'jquery',
+            jQuery: 'jquery',
+            'window.jQuery': 'jquery'
         })
     ]
 };
