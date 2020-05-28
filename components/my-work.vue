@@ -39,7 +39,20 @@ export default {
             }, {
                 id: 3,
                 title: '点点趣官网',
-                link: 'http://www.diandian7.com/'
+                link: ''
+            },
+            {
+                id: 4,
+                title: '绚铃H5',
+                link: ''
+            },{
+                id: 5,
+                title: '貔貅收款IOT小程序',
+                link: ''
+            },{
+                id: 6,
+                title: '商户后台管理系统',
+                link: 'http://pay.oem.kaixuantx.com/web/merchant/index.html#/login/'
             }]
         }
     }
