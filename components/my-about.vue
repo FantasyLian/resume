@@ -6,7 +6,7 @@
             </div>
             <div class="col empty">&nbsp;</div>
             <div class="col about-description">
-                <p data-100="opacity:0;" data-500="opacity:1;">2009年毕业，从事WEB前端开发工作</p>
+                <p data-100="opacity:0;" data-500="opacity:1;">2009年毕业，2010年开始从事WEB前端开发工作</p>
                 <!-- <a href="mailto:fantasy.lian@139.com" class="but">Get in touch</a> -->
             </div>
             <div class="col empty">&nbsp;</div>
