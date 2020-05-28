@@ -9,7 +9,7 @@ const config = {
         main: './main'
     },
     output: {
-        path: path.join(__dirname, './dist/'),
+        path: path.join(__dirname, './dist/static'),
         publicPath: '/dist/',
         filename: 'main.js'
     },

@@ -11,7 +11,7 @@ webpackBaseConfig.plugins = [];
 
 module.exports = merge(webpackBaseConfig, {
     output: {
-        publicPath: './dist/',
+        publicPath: './static/',
         // 将入口文件重命名为带有20位hash值的唯一文件
         filename: '[name].[hash].js'
     },
@@ -41,7 +41,7 @@ module.exports = merge(webpackBaseConfig, {
         }),
         // 提取模版，并保存入口 html 文件
         new HtmlWebpackPlugin({
-            filename: '../index_prod.html',
+            filename: '../index.html',
             template: './index.ejs',
             inject: false,
             // minify: {
