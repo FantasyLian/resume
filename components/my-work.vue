@@ -35,11 +35,11 @@ export default {
             }, {
                 id: 2,
                 title: '人人聚财PC版',
-                link: 'http://www.rrjc.com/'
+                link: 'https://www.rrjc.com/'
             }, {
                 id: 3,
-                title: '点点趣官网',
-                link: ''
+                title: '享哈',
+                link: 'https://www.enjoyha.com/'
             },
             {
                 id: 4,
